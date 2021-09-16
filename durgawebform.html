@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DurgaRajvansh</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <div class="sunenterprises">
+        <h1>Sun Enterprises</h1>
+    </div>
+    <section>
+        <div class="container">
+
+            <form aciton="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+                <div class="formdesign" id="name">
+                    First Name: <br><input type="text" name="fname" required><b><span class="formerror"> </span></b>
+                </div>
+                <br>
+
+                <div class="formdesign" id="name">
+                    Last Name: <br><input type="text" name="lname" required><b><span class="formerror"> </span></b>
+                </div>
+                <br>
+
+                <div class="formdesign" id="email">
+                    Email: <br><input type="email" name="femail" required><b><span class="formerror"> </span></b>
+                </div>
+                <br>
+
+                <div class="formdesign" id="pass">
+                    Password: <br><input type="password" name="fpass" required><b><span class="formerror"</span></b>
+                </div>
+                <br>
+
+                <div class="formdesign" id="cpass">
+                    Re-Enter Password:<br> <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+                </div>
+                <br>
+
+                <input class="but" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+
+</html>
