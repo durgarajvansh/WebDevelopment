@@ -5,7 +5,6 @@ function clearErrors() {
         item.innerHTML = "";
     }
 
-
 }
 
 function seterror(id, error) {
