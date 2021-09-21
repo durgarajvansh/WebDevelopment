@@ -1,2 +1,2 @@
 # WebForm
-![alt text](https://url/to/capture.png)
+![alt text](Pictures/capture.png)
