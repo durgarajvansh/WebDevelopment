@@ -1,2 +1,2 @@
 # WebForm
-![alt text](https://github.com/durgarajvansh/WebDevelopment/issues/1)
+![alt text](https://url/to/capture.png)
